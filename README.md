@@ -24,8 +24,12 @@ it's divided into 3 parts
         return null;
     }
 
-STRUCTURAL DESIGN PATTERN
+# STRUCTURAL DESIGN PATTERN
 
-Decorator Design Pattern - It allows behavior to be added to an individual object, either statically or dynamically, without affecting the behavior of other objects from the same class. It is achieved by creating a set of decorator classes that are used to wrap concrete components.
+## Decorator Design Pattern -
+    It allows behavior to be added to an individual object, either statically or dynamically, without affecting the behavior of other objects from the same class. It is achieved by creating a set of decorator classes that are used to wrap concrete components.
     another definition - The Decorator attaches additional responsibilities to an object dynamically. The ornaments that are added to pine or fir trees are examples of Decorators. Lights, garland, candy canes, glass ornaments, etc., can be added to a tree to give it a festive look. The ornaments do not change the tree itself which is recognizable as a Christmas tree regardless of particular ornaments used. As an example of additional functionality, the addition of lights allows one to "light up" a Christmas tree.
     https://github.com/kanmaytacker/design-patterns/blob/master/notes/06-decorator-facade.pdf
+## Flyweight pattern -
+    The Flyweight Design Pattern is a structural pattern that aims to minimize memory usage or computational expenses by sharing as much as possible with related objects. It's particularly useful when a large number of similar objects need to be created, and the overhead of creating each object individually is significant.
+    In the Flyweight pattern, common portions of the state of multiple objects are factored out into a shared object (the flyweight), and the unique parts are stored separately. This can greatly reduce memory consumption.
