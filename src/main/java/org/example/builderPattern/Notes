@@ -1,0 +1,13 @@
+1)When a class has too many attributes.
+2)Validation needs to happen before object creation.
+3)When there is an immutable class.
+
+Student
+   |
+   |
+getBuilder() --returns  Builder
+   |
+   |
+build() -- setAttributes --  return Student
+
+here the inner class should be static, because getBuilder is a static method.
